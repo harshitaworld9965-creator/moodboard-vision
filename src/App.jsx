@@ -1,19 +1,11 @@
 
 import './App.css'
+import Header from './components/Header';
 
 function App(){
   return (
     <div className='app'>
-      <header className='header'>
-        <div>
-          <p className='eyebrow'>CREATIVE SPACE</p>
-          <h1>Moodboard</h1>
-        </div>
-        <button className='add-button'>
-          + New Spark
-        </button>
-      </header>
-
+      <Header />
       <main className='main-content'>
         <section className='intro'>
           <p className='intro-label'>YOUR IDEAS</p>
